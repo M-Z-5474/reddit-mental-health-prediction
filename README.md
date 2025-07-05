@@ -16,11 +16,12 @@ reddit-mental-health-prediction/
 │   ├── roc_curve_svm_multiclass.png
 │   ├── model_accuracy_comparison.png
 │   └── model_performance_comparison.png
-├── reddit_mental_health_prediction.ipynb
-├── requirements.txt
+|
 ├── README.md
-│
+├── best_model.pkl
+├── reddit_mental_health_prediction.ipynb
 ├── reddit_dataset.csv
+├── requirements.txt
 
 
 
