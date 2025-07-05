@@ -23,7 +23,7 @@ reddit-mental-health-prediction/
 ├── reddit_dataset.csv # dataset which used for project
 ├── requirements.txt # 📦 Python dependencies
 
-
+```
 ---
 
 ## 🎯 Project Objective
@@ -105,10 +105,19 @@ Results are saved under the `results/` folder.
 
 ---
 
-## ✨ Author
+## 🙋‍♂️ Author
 
 **Muhammad Zain Mushtaq**
-[LinkedIn](https://linkedin.com/in/your-link) • [GitHub](https://github.com/your-username)
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/M-Z-5474)
+
+📧 Email: m.zainmushtaq74@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/muhammad-zain-m-a75163358/
 
 ---
+
+## 🌟 If you like this project, please consider giving it a ⭐ on GitHub!
+---
+
 
