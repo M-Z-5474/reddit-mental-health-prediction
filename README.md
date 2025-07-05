@@ -6,23 +6,22 @@ This repository presents an end-to-end machine learning pipeline to **predict me
 ---
 
 ## 📁 Project Structure
-📥 **Download Reddit Dataset**: [`reddit_dataset.csv`](./reddit_dataset.csv)
+
 ```
 
 reddit-mental-health-prediction/
 │
-├── results/
+├── results/ # 📊 Evaluation Visuals
 │   ├── confusion_matrix_svm.png
 │   ├── roc_curve_svm_multiclass.png
 │   ├── model_accuracy_comparison.png
 │   └── model_performance_comparison.png
 |
-├── README.md
-├── best_model.pkl
-├── reddit_mental_health_prediction.ipynb
-├── reddit_dataset.csv
-├── requirements.txt
-
+├── README.md # 📘 Project overview
+├── best_model.pkl # 💾 Trained best-performing model
+├── reddit_mental_health_prediction.ipynb # 🧪 Full ML pipeline in one notebook
+├── reddit_dataset.csv # dataset which used for project
+├── requirements.txt # 📦 Python dependencies
 
 
 ---
@@ -36,16 +35,24 @@ The aim is to:
 - Extract features using **TF-IDF**
 - Split data using an 80/20 train-test ratio for model training and evaluation.
 - Train and evaluate models like **Support Vector Machine (SVM)**, **Random Forest**, **XGBoost**.**Naïve Bayes**, **Random Forest**, and **Logistic Regression**.
+- 💠 Support Vector Machine (SVM)
+- 🌳 Random Forest
+- ⚡ XGBoost
+- 🧠 Artificial Neural Network (ANN)
+- 📈 Logistic Regression
+- 📊 Naïve Bayes  
+
 - Identify which algorithm performs best in predicting mental health categories.
 
 ---
 
 ## 📚 Dataset
 
+📥 **Download Reddit Dataset**: [`reddit_dataset.csv`](./reddit_dataset.csv)
 ---
 
 ## 📊 Target Labels
-
+According to research....
 - **0 → Stress**
 - **1 → Depression**
 - **2 → Anxiety**
@@ -53,9 +60,7 @@ The aim is to:
 ---
 
 
-## 📌 Requirements
-
-Key Python libraries used:
+📦 Libraries used:
 
 * pandas
 * numpy
@@ -65,7 +70,6 @@ Key Python libraries used:
 * seaborn
 * joblib
 
-You can install them using the `requirements.txt` file.
 
 ---
 
@@ -82,28 +86,22 @@ Results are saved under the `results/` folder.
 
 ---
 
+
 ## 📦 Output
 
-* Best model saved as `best_model.pkl`
 * Evaluation report in `results/mo.csv`
 * Confusion matrix image in `results/confusion_matrix_svm.png`
+* Best model saved as `best_model.pkl`
 
 
 ---
 
 ## 🚀 Future Work
 
-* Integrate **structured survey data** for multimodal learning.
-* Deploy as a **web-based application**.
-* Perform **sentiment analysis** and **topic modeling**.
+🚀 Expand to include structured survey data
+🌐 Deploy as an interactive web app
+💬 Integrate sentiment analysis and topic modeling
 
----
-
-## 🙌 Acknowledgements
-
-* Reddit mental health communities
-* Open-source ML & NLP libraries
-* Academic inspiration from related research papers
 
 ---
 
