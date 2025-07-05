@@ -1,1 +1,10 @@
 
+pandas         # For data loading and manipulation
+numpy          # For numerical operations
+nltk           # For NLP preprocessing (tokenization, stopword removal, lemmatization)
+scikit-learn   # For ML models like SVM, Random Forest, Logistic Regression, Naïve Bayes, etc.
+xgboost        # For training the XGBoost model
+matplotlib     # For creating visualizations (e.g., confusion matrix, ROC curve)
+seaborn        # For enhanced statistical data visualization
+joblib         # For saving and loading trained ML models (e.g., best_model.pkl)
+
