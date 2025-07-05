@@ -11,30 +11,18 @@ This repository presents an end-to-end machine learning pipeline to **predict me
 
 reddit-mental-health-prediction/
 │
-├── README.md                 # Project overview and setup instructions
-├── requirements.txt          # Python dependencies
-├── LICENSE                   # MIT License
+├── reddit_mental_health_prediction.ipynb
+├── requirements.txt
+├── README.md
 │
-├── data/
-│   └── sample\_preprocessed\_data.csv     # Preprocessed Reddit dataset
-│
-├── notebooks/
-│   ├── 01\_text\_preprocessing.ipynb      # Data cleaning & text normalization
-│   ├── 02\_feature\_extraction\_tfidf.ipynb # TF-IDF vectorization
-│   ├── 03\_model\_training.ipynb          # Training models (SVM, RF, ANN)
-│   └── 04\_model\_evaluation.ipynb        # Evaluation (Confusion Matrix, Accuracy, etc.)
-│
-├── models/
-│   └── best\_model.pkl                   # Serialized best performing model
+├── reddit_dataset.csv
 │
 ├── results/
-│   ├── confusion\_matrix.png             # Visualization of model performance
-│   └── model\_metrics.csv                # Metrics: Accuracy, Precision, Recall, F1
-│
-└── utils/
-└── helper\_functions.py              # Reusable utility functions
+│   ├── confusion_matrix_svm.png
+│   ├── roc_curve_svm_multiclass.png
+│   ├── model_accuracy_comparison.png
+│   └── model_performance_comparison.png
 
-````
 
 ---
 
