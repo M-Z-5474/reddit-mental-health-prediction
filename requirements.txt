@@ -1,4 +1,3 @@
-
 pandas         # For data loading and manipulation
 numpy          # For numerical operations
 nltk           # For NLP preprocessing (tokenization, stopword removal, lemmatization)
