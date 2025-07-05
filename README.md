@@ -11,17 +11,17 @@ This repository presents an end-to-end machine learning pipeline to **predict me
 
 reddit-mental-health-prediction/
 │
-├── reddit_mental_health_prediction.ipynb
-├── requirements.txt
-├── README.md
-│
-├── reddit_dataset.csv
-│
 ├── results/
 │   ├── confusion_matrix_svm.png
 │   ├── roc_curve_svm_multiclass.png
 │   ├── model_accuracy_comparison.png
 │   └── model_performance_comparison.png
+├── reddit_mental_health_prediction.ipynb
+├── requirements.txt
+├── README.md
+│
+├── reddit_dataset.csv
+
 
 
 ---
