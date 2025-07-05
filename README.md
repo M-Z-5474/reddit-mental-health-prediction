@@ -1,4 +1,4 @@
-
+                                                 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/M-Z-5474)
 # 🧠 Reddit Mental Health Prediction
 
 This repository presents an end-to-end machine learning pipeline to **predict mental health conditions** (Stress, Anxiety, Depression) using **Reddit posts**. The goal is to explore how **natural language processing (NLP)** and supervised learning can be applied to unstructured social media text to assist in early detection of mental health issues.
@@ -60,7 +60,7 @@ According to research....
 ---
 
 
-📦 Libraries used:
+## 📦 Libraries used:
 
 * pandas
 * numpy
@@ -109,7 +109,7 @@ Results are saved under the `results/` folder.
 
 **Muhammad Zain Mushtaq**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/M-Z-5474)
+🔗 GitHub: https://github.com/M-Z-5474
 
 📧 Email: m.zainmushtaq74@gmail.com
 
