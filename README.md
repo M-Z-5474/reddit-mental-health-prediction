@@ -34,7 +34,7 @@ The aim is to:
 - Perform Exploratory Data Analysis (EDA) to understand class distribution, word frequency, and insights.
 - Extract features using **TF-IDF**
 - Split data using an 80/20 train-test ratio for model training and evaluation.
-- Train and evaluate models like **Support Vector Machine (SVM)**, **Random Forest**, **XGBoost**.**Naïve Bayes**, **Random Forest**, and **Logistic Regression**.
+- Train and evaluate following models 
 - 💠 Support Vector Machine (SVM)
 - 🌳 Random Forest
 - ⚡ XGBoost
