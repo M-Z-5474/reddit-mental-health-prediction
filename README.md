@@ -40,6 +40,10 @@ The aim is to:
 
 ---
 
+## 📚 Dataset
+
+---
+
 ## 📊 Target Labels
 
 - **0 → Stress**
@@ -60,7 +64,6 @@ Key Python libraries used:
 * matplotlib
 * seaborn
 * joblib
-* tqdm
 
 You can install them using the `requirements.txt` file.
 
@@ -71,7 +74,7 @@ You can install them using the `requirements.txt` file.
 The models are evaluated using:
 
 * Confusion Matrix
-* Accuracy
+* Accuracy Comparison
 * Precision / Recall / F1-Score
 * ROC-AUC
 
@@ -81,15 +84,10 @@ Results are saved under the `results/` folder.
 
 ## 📦 Output
 
-* Best model saved as `models/best_model.pkl`
-* Evaluation report in `results/model_metrics.csv`
-* Confusion matrix image in `results/confusion_matrix.png`
+* Best model saved as `best_model.pkl`
+* Evaluation report in `results/mo.csv`
+* Confusion matrix image in `results/confusion_matrix_svm.png`
 
----
-
-## 📚 Dataset
-
-Due to privacy concerns, only a **sample** of the preprocessed dataset is shared in `data/sample_preprocessed_data.csv`. You can replace it with your own mental health Reddit dataset.
 
 ---
 
