@@ -6,7 +6,7 @@ This repository presents an end-to-end machine learning pipeline to **predict me
 ---
 
 ## 📁 Project Structure
-
+📥 **Download Reddit Dataset**: [`reddit_dataset.csv`](./reddit_dataset.csv)
 ```
 
 reddit-mental-health-prediction/
